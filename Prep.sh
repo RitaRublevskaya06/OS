@@ -13,7 +13,6 @@ touch ./tasks_tmp/bmp2.bmp
 touch ./tasks_tmp/exe1.exe
 touch ./tasks_tmp/exe2.exe
 
-# В Linux атрибуты скрытых файлов через точку
 mv ./tasks_tmp/hidden1.txt ./tasks_tmp/.hidden1.txt
 
 # Task 1a
@@ -26,7 +25,6 @@ mkdir -p task_01b/subdir/empty_subdir
 touch task_01b/subdir/txt1.txt
 touch task_01b/subdir/txt2.txt
 
-# В Linux скрытые директории через точку
 mkdir -p task_01b/.hidden_dir
 mkdir -p task_01b/.hidden_dir/empty_subdir
 mkdir -p task_01b/.hidden_dir/subdir
@@ -36,7 +34,7 @@ touch task_01b/.hidden_dir/txt1.txt
 touch task_01b/.hidden_dir/system1.txt
 
 touch task_01b/readonly.txt
-chmod 444 task_01b/readonly.txt  # только для чтения
+chmod 444 task_01b/readonly.txt
 touch task_01b/nonarchieve.txt
 touch task_01b/nonarchieve-readonly.txt
 chmod 444 task_01b/nonarchieve-readonly.txt
@@ -125,4 +123,5 @@ mkdir -p task_01k/subdir
 mkdir -p task_01k/empty_subdir
 
 echo "Structure created!"
+
 find . -type d | sort
