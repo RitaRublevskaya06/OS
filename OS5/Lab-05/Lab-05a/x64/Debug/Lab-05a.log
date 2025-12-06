@@ -1,0 +1,18 @@
+﻿  Lab-05a.cpp
+d:\Users\lenovo\Desktop\Lab-05\Lab-05a\Lab-05a.cpp(31,16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "DWORD_PTR"
+      d:\Users\lenovo\Desktop\Lab-05\Lab-05a\Lab-05a.cpp(31,16):
+      рекомендуется использовать "%lld" в строке форматирования
+      d:\Users\lenovo\Desktop\Lab-05\Lab-05a\Lab-05a.cpp(31,16):
+      рекомендуется использовать "%Id" в строке форматирования
+      d:\Users\lenovo\Desktop\Lab-05\Lab-05a\Lab-05a.cpp(31,16):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+d:\Users\lenovo\Desktop\Lab-05\Lab-05a\Lab-05a.cpp(35,16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "DWORD_PTR"
+      d:\Users\lenovo\Desktop\Lab-05\Lab-05a\Lab-05a.cpp(35,16):
+      рекомендуется использовать "%lld" в строке форматирования
+      d:\Users\lenovo\Desktop\Lab-05\Lab-05a\Lab-05a.cpp(35,16):
+      рекомендуется использовать "%Id" в строке форматирования
+      d:\Users\lenovo\Desktop\Lab-05\Lab-05a\Lab-05a.cpp(35,16):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+  Lab-05a.vcxproj -> d:\Users\lenovo\Desktop\Lab-05\x64\Debug\Lab-05a.exe
